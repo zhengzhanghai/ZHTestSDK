@@ -8,12 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC1E8324751692004B6FCC /* ZHTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF217992477B60800156FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217982477B60800156FE8 /* AppDelegate.m */; };
+		ADF2179C2477B60800156FE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179B2477B60800156FE8 /* SceneDelegate.m */; };
+		ADF2179F2477B60800156FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179E2477B60800156FE8 /* ViewController.m */; };
+		ADF217A22477B60800156FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A02477B60800156FE8 /* Main.storyboard */; };
+		ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A32477B60A00156FE8 /* Assets.xcassets */; };
+		ADF217A72477B60A00156FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */; };
+		ADF217AA2477B60A00156FE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217A92477B60A00156FE8 /* main.m */; };
+		ADF217B02477B90000156FE8 /* ZHImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF217AE2477B90000156FE8 /* ZHImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217AF2477B90000156FE8 /* ZHImageView.m */; };
+		ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */; };
+		ADF217B42477BA6400156FE8 /* ZHTestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF217B52477BA6400156FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEC1E7724751692004B6FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEC1E7F24751692004B6FCC;
+			remoteInfo = ZHTestSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADF217B72477BA6400156FE8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADF217B42477BA6400156FE8 /* ZHTestSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEC1E8324751692004B6FCC /* ZHTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTestSDK.h; sourceTree = "<group>"; };
 		ADEC1E8424751692004B6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTestSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF217972477B60800156FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADF217982477B60800156FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADF2179A2477B60800156FE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ADF2179B2477B60800156FE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ADF2179D2477B60800156FE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADF2179E2477B60800156FE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADF217A12477B60800156FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF217A32477B60A00156FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF217A62477B60A00156FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF217A82477B60A00156FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217A92477B60A00156FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADF217AE2477B90000156FE8 /* ZHImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHImageView.h; sourceTree = "<group>"; };
+		ADF217AF2477B90000156FE8 /* ZHImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +73,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADF217922477B60800156FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				ADEC1E8224751692004B6FCC /* ZHTestSDK */,
+				ADF217962477B60800156FE8 /* ZHTestSDKDemo */,
 				ADEC1E8124751692004B6FCC /* Products */,
+				ADF217B22477BA6400156FE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */,
+				ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +107,36 @@
 			isa = PBXGroup;
 			children = (
 				ADEC1E8324751692004B6FCC /* ZHTestSDK.h */,
+				ADF217AE2477B90000156FE8 /* ZHImageView.h */,
+				ADF217AF2477B90000156FE8 /* ZHImageView.m */,
 				ADEC1E8424751692004B6FCC /* Info.plist */,
 			);
 			path = ZHTestSDK;
+			sourceTree = "<group>";
+		};
+		ADF217962477B60800156FE8 /* ZHTestSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADF217972477B60800156FE8 /* AppDelegate.h */,
+				ADF217982477B60800156FE8 /* AppDelegate.m */,
+				ADF2179A2477B60800156FE8 /* SceneDelegate.h */,
+				ADF2179B2477B60800156FE8 /* SceneDelegate.m */,
+				ADF2179D2477B60800156FE8 /* ViewController.h */,
+				ADF2179E2477B60800156FE8 /* ViewController.m */,
+				ADF217A02477B60800156FE8 /* Main.storyboard */,
+				ADF217A32477B60A00156FE8 /* Assets.xcassets */,
+				ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */,
+				ADF217A82477B60A00156FE8 /* Info.plist */,
+				ADF217A92477B60A00156FE8 /* main.m */,
+			);
+			path = ZHTestSDKDemo;
+			sourceTree = "<group>";
+		};
+		ADF217B22477BA6400156FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */,
+				ADF217B02477B90000156FE8 /* ZHImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +172,25 @@
 			productReference = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		ADF217942477B60800156FE8 /* ZHTestSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF217AD2477B60A00156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKDemo" */;
+			buildPhases = (
+				ADF217912477B60800156FE8 /* Sources */,
+				ADF217922477B60800156FE8 /* Frameworks */,
+				ADF217932477B60800156FE8 /* Resources */,
+				ADF217B72477BA6400156FE8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF217B62477BA6400156FE8 /* PBXTargetDependency */,
+			);
+			name = ZHTestSDKDemo;
+			productName = ZHTestSDKDemo;
+			productReference = ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +201,9 @@
 				ORGANIZATIONNAME = zzh;
 				TargetAttributes = {
 					ADEC1E7F24751692004B6FCC = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					ADF217942477B60800156FE8 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -112,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				ADEC1E7F24751692004B6FCC /* ZHTestSDK */,
+				ADF217942477B60800156FE8 /* ZHTestSDKDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +235,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADF217932477B60800156FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF217A72477B60A00156FE8 /* LaunchScreen.storyboard in Resources */,
+				ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */,
+				ADF217A22477B60800156FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -131,10 +252,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217912477B60800156FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF2179F2477B60800156FE8 /* ViewController.m in Sources */,
+				ADF217992477B60800156FE8 /* AppDelegate.m in Sources */,
+				ADF217AA2477B60A00156FE8 /* main.m in Sources */,
+				ADF2179C2477B60800156FE8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF217B62477BA6400156FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEC1E7F24751692004B6FCC /* ZHTestSDK */;
+			targetProxy = ADF217B52477BA6400156FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF217A02477B60800156FE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF217A12477B60800156FE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF217A52477B60A00156FE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF217A62477B60A00156FE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ADEC1E8624751692004B6FCC /* Debug */ = {
@@ -264,6 +424,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZHTestSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,6 +449,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ZHTestSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +459,42 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADF217AB2477B60A00156FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BCAF5M7TY;
+				INFOPLIST_FILE = ZHTestSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF217AC2477B60A00156FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3BCAF5M7TY;
+				INFOPLIST_FILE = ZHTestSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -318,6 +516,15 @@
 			buildConfigurations = (
 				ADEC1E8924751692004B6FCC /* Debug */,
 				ADEC1E8A24751692004B6FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF217AD2477B60A00156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF217AB2477B60A00156FE8 /* Debug */,
+				ADF217AC2477B60A00156FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
