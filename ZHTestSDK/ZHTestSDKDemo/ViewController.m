@@ -20,6 +20,7 @@
     
     ZHImageView *imageView = [[ZHImageView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
     [self.view addSubview:imageView];
+    [imageView setLocalImage];
 }
 
 

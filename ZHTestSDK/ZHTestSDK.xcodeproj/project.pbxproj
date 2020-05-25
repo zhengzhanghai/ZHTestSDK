@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC1E8324751692004B6FCC /* ZHTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADF217992477B60800156FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217982477B60800156FE8 /* AppDelegate.m */; };
-		ADF2179C2477B60800156FE8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179B2477B60800156FE8 /* SceneDelegate.m */; };
 		ADF2179F2477B60800156FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179E2477B60800156FE8 /* ViewController.m */; };
 		ADF217A22477B60800156FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A02477B60800156FE8 /* Main.storyboard */; };
 		ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF217A32477B60A00156FE8 /* Assets.xcassets */; };
@@ -19,6 +18,9 @@
 		ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217AF2477B90000156FE8 /* ZHImageView.m */; };
 		ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */; };
 		ADF217B42477BA6400156FE8 /* ZHTestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADF217CA247BCE8700156FE8 /* ZHHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF217C8247BCE8700156FE8 /* ZHHelper.h */; };
+		ADF217CB247BCE8700156FE8 /* ZHHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217C9247BCE8700156FE8 /* ZHHelper.m */; };
+		ADF217CD247BD29200156FE8 /* ZHTestSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADF217CC247BD29200156FE8 /* ZHTestSDKResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,6 @@
 		ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTestSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF217972477B60800156FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADF217982477B60800156FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADF2179A2477B60800156FE8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		ADF2179B2477B60800156FE8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		ADF2179D2477B60800156FE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ADF2179E2477B60800156FE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ADF217A12477B60800156FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +63,11 @@
 		ADF217A92477B60A00156FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADF217AE2477B90000156FE8 /* ZHImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHImageView.h; sourceTree = "<group>"; };
 		ADF217AF2477B90000156FE8 /* ZHImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHImageView.m; sourceTree = "<group>"; };
+		ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTestSDKResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF217C0247BC9C300156FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF217C8247BCE8700156FE8 /* ZHHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHHelper.h; sourceTree = "<group>"; };
+		ADF217C9247BCE8700156FE8 /* ZHHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHHelper.m; sourceTree = "<group>"; };
+		ADF217CC247BD29200156FE8 /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZHTestSDKResource.bundle; path = "../../Library/Developer/Xcode/DerivedData/ZHTestSDK-gatdxiwrdqjngwewdgczicboesil/Build/Products/Debug-iphonesimulator/ZHTestSDKResource.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +86,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADF217BB247BC9C300156FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ADEC1E7624751692004B6FCC = {
 			isa = PBXGroup;
 			children = (
+				ADF217CC247BD29200156FE8 /* ZHTestSDKResource.bundle */,
 				ADEC1E8224751692004B6FCC /* ZHTestSDK */,
 				ADF217962477B60800156FE8 /* ZHTestSDKDemo */,
+				ADF217BF247BC9C300156FE8 /* ZHTestSDKResource */,
 				ADEC1E8124751692004B6FCC /* Products */,
 				ADF217B22477BA6400156FE8 /* Frameworks */,
 			);
@@ -99,6 +113,7 @@
 			children = (
 				ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */,
 				ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */,
+				ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +124,8 @@
 				ADEC1E8324751692004B6FCC /* ZHTestSDK.h */,
 				ADF217AE2477B90000156FE8 /* ZHImageView.h */,
 				ADF217AF2477B90000156FE8 /* ZHImageView.m */,
+				ADF217C8247BCE8700156FE8 /* ZHHelper.h */,
+				ADF217C9247BCE8700156FE8 /* ZHHelper.m */,
 				ADEC1E8424751692004B6FCC /* Info.plist */,
 			);
 			path = ZHTestSDK;
@@ -119,8 +136,6 @@
 			children = (
 				ADF217972477B60800156FE8 /* AppDelegate.h */,
 				ADF217982477B60800156FE8 /* AppDelegate.m */,
-				ADF2179A2477B60800156FE8 /* SceneDelegate.h */,
-				ADF2179B2477B60800156FE8 /* SceneDelegate.m */,
 				ADF2179D2477B60800156FE8 /* ViewController.h */,
 				ADF2179E2477B60800156FE8 /* ViewController.m */,
 				ADF217A02477B60800156FE8 /* Main.storyboard */,
@@ -139,6 +154,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ADF217BF247BC9C300156FE8 /* ZHTestSDKResource */ = {
+			isa = PBXGroup;
+			children = (
+				ADF217C0247BC9C300156FE8 /* Info.plist */,
+			);
+			path = ZHTestSDKResource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -146,6 +169,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF217CA247BCE8700156FE8 /* ZHHelper.h in Headers */,
 				ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */,
 				ADF217B02477B90000156FE8 /* ZHImageView.h in Headers */,
 			);
@@ -191,6 +215,23 @@
 			productReference = ADF217952477B60800156FE8 /* ZHTestSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADF217BD247BC9C300156FE8 /* ZHTestSDKResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF217C1247BC9C300156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKResource" */;
+			buildPhases = (
+				ADF217BA247BC9C300156FE8 /* Sources */,
+				ADF217BB247BC9C300156FE8 /* Frameworks */,
+				ADF217BC247BC9C300156FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTestSDKResource;
+			productName = ZHTestSDKResource;
+			productReference = ADF217BE247BC9C300156FE8 /* ZHTestSDKResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,8 +243,12 @@
 				TargetAttributes = {
 					ADEC1E7F24751692004B6FCC = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 					ADF217942477B60800156FE8 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					ADF217BD247BC9C300156FE8 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -223,6 +268,7 @@
 			targets = (
 				ADEC1E7F24751692004B6FCC /* ZHTestSDK */,
 				ADF217942477B60800156FE8 /* ZHTestSDKDemo */,
+				ADF217BD247BC9C300156FE8 /* ZHTestSDKResource */,
 			);
 		};
 /* End PBXProject section */
@@ -239,9 +285,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF217CD247BD29200156FE8 /* ZHTestSDKResource.bundle in Resources */,
 				ADF217A72477B60A00156FE8 /* LaunchScreen.storyboard in Resources */,
 				ADF217A42477B60A00156FE8 /* Assets.xcassets in Resources */,
 				ADF217A22477B60800156FE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217BC247BC9C300156FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF217B12477B90000156FE8 /* ZHImageView.m in Sources */,
+				ADF217CB247BCE8700156FE8 /* ZHHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +318,13 @@
 				ADF2179F2477B60800156FE8 /* ViewController.m in Sources */,
 				ADF217992477B60800156FE8 /* AppDelegate.m in Sources */,
 				ADF217AA2477B60A00156FE8 /* main.m in Sources */,
-				ADF2179C2477B60800156FE8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF217BA247BC9C300156FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +477,7 @@
 		ADEC1E8924751692004B6FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3BCAF5M7TY;
@@ -434,6 +496,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -441,6 +505,7 @@
 		ADEC1E8A24751692004B6FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3BCAF5M7TY;
@@ -459,6 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -499,6 +565,42 @@
 			};
 			name = Release;
 		};
+		ADF217C2247BC9C300156FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3BCAF5M7TY;
+				INFOPLIST_FILE = ZHTestSDKResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ADF217C3247BC9C300156FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3BCAF5M7TY;
+				INFOPLIST_FILE = ZHTestSDKResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzh.ZHTestSDKResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -525,6 +627,15 @@
 			buildConfigurations = (
 				ADF217AB2477B60A00156FE8 /* Debug */,
 				ADF217AC2477B60A00156FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF217C1247BC9C300156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF217C2247BC9C300156FE8 /* Debug */,
+				ADF217C3247BC9C300156FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

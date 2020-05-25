@@ -7,6 +7,7 @@
 //
 
 #import "ZHImageView.h"
+#import "ZHHelper.h"
 
 @implementation ZHImageView
 
@@ -17,6 +18,13 @@
         self.backgroundColor = [UIColor orangeColor];
     }
     return self;
+}
+
+/// 设置本地图片(从bundle取图片)
+- (void)setLocalImage {
+    NSString *path = ResourcePath(@"123.png", @"");
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    self.image = image;
 }
 
 @end

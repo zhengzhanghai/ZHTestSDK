@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZHImageView : UIImageView
 
+/// 设置本地图片(从bundle取图片)
+- (void)setLocalImage;
+
 @end
 
 NS_ASSUME_NONNULL_END
