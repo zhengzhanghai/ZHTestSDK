@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9297A7BA90449344266C278 /* Pods_ZHTestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */; };
 		ADEC1E8524751692004B6FCC /* ZHTestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEC1E8324751692004B6FCC /* ZHTestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADF217992477B60800156FE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217982477B60800156FE8 /* AppDelegate.m */; };
 		ADF2179F2477B60800156FE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF2179E2477B60800156FE8 /* ViewController.m */; };
@@ -21,6 +22,7 @@
 		ADF217CA247BCE8700156FE8 /* ZHHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF217C8247BCE8700156FE8 /* ZHHelper.h */; };
 		ADF217CB247BCE8700156FE8 /* ZHHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF217C9247BCE8700156FE8 /* ZHHelper.m */; };
 		ADF217CD247BD29200156FE8 /* ZHTestSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADF217CC247BD29200156FE8 /* ZHTestSDKResource.bundle */; };
+		D909C4AEDEA79488299567B1 /* Pods_ZHTestSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTestSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDK.release.xcconfig"; path = "Target Support Files/Pods-ZHTestSDK/Pods-ZHTestSDK.release.xcconfig"; sourceTree = "<group>"; };
 		ADEC1E8024751692004B6FCC /* ZHTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEC1E8324751692004B6FCC /* ZHTestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTestSDK.h; sourceTree = "<group>"; };
 		ADEC1E8424751692004B6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +72,10 @@
 		ADF217C8247BCE8700156FE8 /* ZHHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHHelper.h; sourceTree = "<group>"; };
 		ADF217C9247BCE8700156FE8 /* ZHHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHHelper.m; sourceTree = "<group>"; };
 		ADF217CC247BD29200156FE8 /* ZHTestSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZHTestSDKResource.bundle; path = "../../Library/Developer/Xcode/DerivedData/ZHTestSDK-gatdxiwrdqjngwewdgczicboesil/Build/Products/Debug-iphonesimulator/ZHTestSDKResource.bundle"; sourceTree = "<group>"; };
+		CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDK.debug.xcconfig"; path = "Target Support Files/Pods-ZHTestSDK/Pods-ZHTestSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHTestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHTestSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-ZHTestSDKDemo/Pods-ZHTestSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9297A7BA90449344266C278 /* Pods_ZHTestSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF217B32477BA6400156FE8 /* ZHTestSDK.framework in Frameworks */,
+				D909C4AEDEA79488299567B1 /* Pods_ZHTestSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282CC81085F8E16D1B1782A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */,
+				49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */,
+				F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */,
+				FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADEC1E7624751692004B6FCC = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +127,7 @@
 				ADF217BF247BC9C300156FE8 /* ZHTestSDKResource */,
 				ADEC1E8124751692004B6FCC /* Products */,
 				ADF217B22477BA6400156FE8 /* Frameworks */,
+				282CC81085F8E16D1B1782A5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +173,8 @@
 		ADF217B22477BA6400156FE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9A3D11694E861C49F99A88A /* Pods_ZHTestSDK.framework */,
+				38EF5AED3663B59520A91C7D /* Pods_ZHTestSDKDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEC1E8824751692004B6FCC /* Build configuration list for PBXNativeTarget "ZHTestSDK" */;
 			buildPhases = (
+				3CC9439B332FA6FFCB79E46C /* [CP] Check Pods Manifest.lock */,
 				ADEC1E7B24751692004B6FCC /* Headers */,
 				ADEC1E7C24751692004B6FCC /* Sources */,
 				ADEC1E7D24751692004B6FCC /* Frameworks */,
@@ -200,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF217AD2477B60A00156FE8 /* Build configuration list for PBXNativeTarget "ZHTestSDKDemo" */;
 			buildPhases = (
+				17EFBAC6ED684B5648DCB87A /* [CP] Check Pods Manifest.lock */,
 				ADF217912477B60800156FE8 /* Sources */,
 				ADF217922477B60800156FE8 /* Frameworks */,
 				ADF217932477B60800156FE8 /* Resources */,
@@ -300,6 +327,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EFBAC6ED684B5648DCB87A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHTestSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC9439B332FA6FFCB79E46C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHTestSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADEC1E7C24751692004B6FCC /* Sources */ = {
@@ -476,6 +550,7 @@
 		};
 		ADEC1E8924751692004B6FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD56B78416681A3D80B1033 /* Pods-ZHTestSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +579,7 @@
 		};
 		ADEC1E8A24751692004B6FCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BB6AA2F7DFE9F1962FC2F1 /* Pods-ZHTestSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +607,7 @@
 		};
 		ADF217AB2477B60A00156FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EF1BBC6BFA88DDD55CDD17 /* Pods-ZHTestSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +626,7 @@
 		};
 		ADF217AC2477B60A00156FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE01EB49D1E840532473407F /* Pods-ZHTestSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
