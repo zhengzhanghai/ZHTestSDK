@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置本地图片(从bundle取图片)
 - (void)setLocalImage;
 
+/// 通过SDWebImage库设置图片
+- (void)setImageBySDWebImage;
+
 @end
 
 NS_ASSUME_NONNULL_END

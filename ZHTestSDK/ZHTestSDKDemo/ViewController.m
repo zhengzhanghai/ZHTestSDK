@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <ZHTestSDK/ZHTestSDK.h>
+@import SDWebImage;
 
 @interface ViewController ()
 
@@ -20,7 +21,11 @@
     
     ZHImageView *imageView = [[ZHImageView alloc] initWithFrame:CGRectMake(100, 200, 200, 200)];
     [self.view addSubview:imageView];
-    [imageView setLocalImage];
+    //    [imageView setLocalImage];
+    // 这里第三方库在SDK内部和demo都能用
+    //    [imageView setImageBySDWebImage];
+    [imageView sd_setImageWithURL:[NSURL URLWithString:@"http://5b0988e595225.cdn.sohucs.com/images/20180108/9ff524a5910b4546a94d533c18b38eca.jpeg"]];
+    //
 }
 
 
